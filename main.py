@@ -1,19 +1,3 @@
-# from fastapi import FastAPI
-#
-# app = FastAPI() #создаем объект этого класса фастапи
-#
-# @app.get("/")
-# def root():
-#     return {"message": "Hello, AI Student!"}
-#
-# @app.get("/add")
-# def add(x: int, y: int) -> int:
-#     return x + y
-#
-# @app.get("/double/{number}")
-# def double(number: int) -> int:
-#     return number * 2
-
 from enum import Enum
 from fastapi import FastAPI, HTTPException, Query, Path, Body
 from pydantic import BaseModel
@@ -52,7 +36,7 @@ post_db = [
 
 @app.get("/")
 async def root():
-    return {"message": "Hello, World"}
+    return {"message": "WELCOME TO VET CLINIC!"}
 
 @app.post("/post", response_model=Timestamp)
 async def get_post():
