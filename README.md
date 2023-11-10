@@ -3,13 +3,13 @@
 Веб-сервис FastAPI для ветклиники, разработанный в качестве задания в рамках курса DevOps в магистратуре НИУ ВШЭ по программе «Машинное обучение и высоконагруженные системы».
 
 Сервис развернут на публичном хостинге render и доступен по [ссылке](https://vet-clinic-fastapi-service.onrender.com)
-Доступные операции описаны в [сервисной документации] (https://vet-clinic-fastapi-service.onrender.com/docs)
+Доступные операции описаны в [сервисной документации](https://vet-clinic-fastapi-service.onrender.com/docs)
 
 Python 3.11.5 
  
 
 ### Задание
-реализовать [описанный] (https://drive.google.com/file/d/1qtHEGCl2gpLxOR7CJPOC40tHp4hwYL5_/view) в формате OpenAPI микросервис для хранения и обновления информации для собак
+реализовать [описанный](https://drive.google.com/file/d/1qtHEGCl2gpLxOR7CJPOC40tHp4hwYL5_/view) в формате OpenAPI микросервис для хранения и обновления информации для собак
 
 
 
